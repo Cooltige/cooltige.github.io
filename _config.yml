@@ -4,7 +4,7 @@ SEOTitle: Cooltige's Blog
 header-img: img/post-bg-rwd.jpg
 # email: cooltige@gmail.com
 description: "just have fun!"
-keyword: "外网，内网"
+keyword: "Cooltige"
 url: "https://cooltige.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -67,11 +67,11 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto
 
 
 
