@@ -61,4 +61,4 @@ PS C:\Users\Administrator\Desktop>Invoke-PSImage -Script .\payload.ps1 -Image .\
 
 完成上线
 
-**<font color=red>本站提供的所有内容仅供学习、分享与交流，禁止用于非法途径，通过使用本站内容随之而来的风险与本站无关。</font>**
+**本站提供的所有内容仅供学习、分享与交流，禁止用于非法途径，通过使用本站内容随之而来的风险与本站无关**
