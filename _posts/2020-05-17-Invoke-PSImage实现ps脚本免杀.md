@@ -9,6 +9,7 @@ catalog: true
 tags:
     - 免杀
 ---
+
 # Invoke-PSImage
 Invoke-PSImage可以将一个PowerShell脚本中的字节嵌入到PNG图像文件的像素之中，并生成一行执行命令来帮助我们从文件或Web（传递-Web标记）执行它们。
 
