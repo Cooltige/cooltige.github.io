@@ -21,7 +21,7 @@ Invoke-PSImage可以将一个PowerShell脚本中的字节嵌入到PNG图像文�
 # 实验前准备
 ### cs生成powershell脚本
 
-![](http://cooltige.com/wp-content/uploads/2020/02/dc70ceed77fcabc703cdd5d3f02def6c.png)
+![](../img/ps_bypass_av/dc70ceed77fcabc703cdd5d3f02def6c.png)
 
 payload.ps1
 ### 准备图片
