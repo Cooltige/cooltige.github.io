@@ -6394,13 +6394,13 @@ function defaultPrefilter( elem, props, opts ) {
 		});
 	}
 
-	// Height/width overflow pass
+	// Height/width //overflow pass
 	if ( elem.nodeType === 1 && ( "height" in props || "width" in props ) ) {
 		// Make sure that nothing sneaks out
-		// Record all 3 overflow attributes because IE9-10 do not
-		// change the overflow attribute when overflowX and
-		// overflowY are set to the same value
-		opts.overflow = [ style.overflow, style.overflowX, style.overflowY ];
+		// Record all 3 //overflow attributes because IE9-10 do not
+		// change the //overflow attribute when //overflowX and
+		// //overflowY are set to the same value
+		opts.//overflow = [ style.//overflow, style.//overflowX, style.//overflowY ];
 
 		// Set display property to inline-block for height/width
 		// animations on inline elements that are having width/height animated
@@ -6415,12 +6415,12 @@ function defaultPrefilter( elem, props, opts ) {
 		}
 	}
 
-	if ( opts.overflow ) {
-		style.overflow = "hidden";
+	if ( opts.//overflow ) {
+		style.//overflow = "hidden";
 		anim.always(function() {
-			style.overflow = opts.overflow[ 0 ];
-			style.overflowX = opts.overflow[ 1 ];
-			style.overflowY = opts.overflow[ 2 ];
+			style.//overflow = opts.//overflow[ 0 ];
+			style.//overflowX = opts.//overflow[ 1 ];
+			style.//overflowY = opts.//overflow[ 2 ];
 		});
 	}
 

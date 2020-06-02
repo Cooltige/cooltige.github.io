@@ -1120,7 +1120,7 @@ if (typeof jQuery === 'undefined') {
     }
   }
 
-  // these following methods are used to handle overflowing modals
+  // these following methods are used to handle //overflowing modals
 
   Modal.prototype.handleUpdate = function () {
     if (this.options.backdrop) this.adjustBackdrop()
@@ -1134,11 +1134,11 @@ if (typeof jQuery === 'undefined') {
   }
 
   Modal.prototype.adjustDialog = function () {
-    var modalIsOverflowing = this.$element[0].scrollHeight > document.documentElement.clientHeight
+    var modalIs//overflowing = this.$element[0].scrollHeight > document.documentElement.clientHeight
 
     this.$element.css({
-      paddingLeft:  !this.bodyIsOverflowing && modalIsOverflowing ? this.scrollbarWidth : '',
-      paddingRight: this.bodyIsOverflowing && !modalIsOverflowing ? this.scrollbarWidth : ''
+      paddingLeft:  !this.bodyIs//overflowing && modalIs//overflowing ? this.scrollbarWidth : '',
+      paddingRight: this.bodyIs//overflowing && !modalIs//overflowing ? this.scrollbarWidth : ''
     })
   }
 
@@ -1150,13 +1150,13 @@ if (typeof jQuery === 'undefined') {
   }
 
   Modal.prototype.checkScrollbar = function () {
-    this.bodyIsOverflowing = document.body.scrollHeight > document.documentElement.clientHeight
+    this.bodyIs//overflowing = document.body.scrollHeight > document.documentElement.clientHeight
     this.scrollbarWidth = this.measureScrollbar()
   }
 
   Modal.prototype.setScrollbar = function () {
     var bodyPad = parseInt((this.$body.css('padding-right') || 0), 10)
-    if (this.bodyIsOverflowing) this.$body.css('padding-right', bodyPad + this.scrollbarWidth)
+    if (this.bodyIs//overflowing) this.$body.css('padding-right', bodyPad + this.scrollbarWidth)
   }
 
   Modal.prototype.resetScrollbar = function () {
@@ -1590,17 +1590,17 @@ if (typeof jQuery === 'undefined') {
     if (/right|left/.test(placement)) {
       var topEdgeOffset    = pos.top - viewportPadding - viewportDimensions.scroll
       var bottomEdgeOffset = pos.top + viewportPadding - viewportDimensions.scroll + actualHeight
-      if (topEdgeOffset < viewportDimensions.top) { // top overflow
+      if (topEdgeOffset < viewportDimensions.top) { // top //overflow
         delta.top = viewportDimensions.top - topEdgeOffset
-      } else if (bottomEdgeOffset > viewportDimensions.top + viewportDimensions.height) { // bottom overflow
+      } else if (bottomEdgeOffset > viewportDimensions.top + viewportDimensions.height) { // bottom //overflow
         delta.top = viewportDimensions.top + viewportDimensions.height - bottomEdgeOffset
       }
     } else {
       var leftEdgeOffset  = pos.left - viewportPadding
       var rightEdgeOffset = pos.left + viewportPadding + actualWidth
-      if (leftEdgeOffset < viewportDimensions.left) { // left overflow
+      if (leftEdgeOffset < viewportDimensions.left) { // left //overflow
         delta.left = viewportDimensions.left - leftEdgeOffset
-      } else if (rightEdgeOffset > viewportDimensions.width) { // right overflow
+      } else if (rightEdgeOffset > viewportDimensions.width) { // right //overflow
         delta.left = viewportDimensions.left + viewportDimensions.width - rightEdgeOffset
       }
     }
