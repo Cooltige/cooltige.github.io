@@ -5,7 +5,7 @@ subtitle:   Ps脚本免杀
 date:       2020-05-17
 author:     Cooltige
 header-img: img/post-bg-ps.jpg
-catalog: true
+catalog: false
 tags:
     - 免杀
 ---
