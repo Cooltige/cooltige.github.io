@@ -4,7 +4,7 @@ title:      Potato Family
 subtitle:   windows potato 提权
 date:       2020-06-02
 author:     Cooltige
-header-img: img/post-bg-udf.jpg
+header-img: img/post-bg-potato.jpg
 catalog: false
 tags:
     - windows
