@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Potato Family
+title:      Sqlmap --os-shell
 subtitle:   Sqlmap --os-shell原理
 date:       2020-06-24
 author:     Cooltige
