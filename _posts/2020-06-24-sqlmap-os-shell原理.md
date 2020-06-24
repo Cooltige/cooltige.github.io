@@ -2,7 +2,7 @@
 layout:     post
 title:      Potato Family
 subtitle:   Sqlmap --os-shell原理
-date:       2020-06-024
+date:       2020-06-24
 author:     Cooltige
 header-img: img/post-bg-sqlmap-osshell.jpg
 catalog: false
